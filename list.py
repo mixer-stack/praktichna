@@ -49,7 +49,7 @@ print(f"kilkist [!]: {counttt}")
 listt = (input("vvedit text: "))
 list6 = listt.split()
 for i in range(0,len(list6)):
-    for j in range(-1,-i, -1):
-        if str(list6[i]) == str(list6[j]):
-            list6.remove(list6[j])
+    for j in range(len(list6),i, -1):
+        if (list6[i]) == (list6[j]):
+            list6.remove(j)
 print(list6)
