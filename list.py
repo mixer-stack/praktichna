@@ -45,7 +45,7 @@ print(f"kilkist cifer: {countt}")
 for i in range(0, len(listt)):
     counttt += listt[i].count("!")
 print(f"kilkist [!]: {counttt}")
-#6
+#6(!)
 listt = (input("vvedit text: "))
 list6 = listt.split()
 for i in range(0,len(list6)):
